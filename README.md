@@ -25,3 +25,10 @@
   - etcd: Key / Value store. Cluster Brain! Stores information about the cluster like currently running processes etc. Not the application data. 
 - Sample Cluster Setup:
   - 2 Master, 3 Node
+
+## minikube & kubectl
+- minikube: Local cluster setup. Master and node processes on one machine
+  - creates virtual box
+  - runs node inside vbox
+  - 1 node k8s cluster
+- kubectl: cli tool for communicatin with a cluster
