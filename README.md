@@ -17,7 +17,7 @@
   - container runtime: e.g. docker
   - kubelets: kubernetes process. interaction with node and pod
   - kube proxy: forwards requests for the services.
-- Master Nodes: Controls and manages the cluster and worker nodes. Needs 4 processes
+- Master Nodes / Control Plane: Controls and manages the cluster and worker nodes. Needs 4 processes
   - Api Server: Like a cluster gateway. Also Auth gate keeper.
     - Request > Api Server > validation > Forward to other processes
   - Scheduler: Intelligent manager. Where to put a new Pod. 
